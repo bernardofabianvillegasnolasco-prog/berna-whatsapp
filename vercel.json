@@ -1,3 +1,5 @@
 {
-  "crons": [{ "path": "/api/poll", "schedule": "* * * * *" }]
+  "functions": {
+    "api/poll.js": { "maxDuration": 30 }
+  }
 }
